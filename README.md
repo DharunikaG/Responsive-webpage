@@ -16,3 +16,5 @@ The theme of the webpage is aesthetically designed with beige color and the webp
 OUTPUT :
 
 ![Image](https://github.com/user-attachments/assets/60ee8153-980f-40de-a32c-7369ebd3fc20)
+
+![Image](https://github.com/user-attachments/assets/2fd5865b-e882-47c1-91b1-a83b45438936)
