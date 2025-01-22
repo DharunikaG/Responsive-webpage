@@ -12,3 +12,7 @@ DESCRIPTION
 In this project i have designed a responsive webpage using html,css, and javascript with the help of internet sources.
 This webpage is named as thriftstore.com where we can buy and sell used books.
 The theme of the webpage is aesthetically designed with beige color and the webpage is responsive in respect various sizes of device.
+
+OUTPUT :
+
+![Image](https://github.com/user-attachments/assets/60ee8153-980f-40de-a32c-7369ebd3fc20)
