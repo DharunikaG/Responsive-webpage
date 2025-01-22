@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thriftstore.com</title>
+  <!-- Font Awesome Link -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Thriftstore.com</h1>
+    <div class="icons">
+      <i class="fas fa-shopping-cart icon" title="Cart"></i>
+      <i class="fas fa-heart icon" title="Wishlist"></i>
+      <i class="fas fa-user icon" title="Profile"></i>
+    </div>
+  </header>
+  <main>
+    <section id="products">
+      <h2>Available Books</h2>
+      <div class="product-list">
+        <!-- Product Cards -->
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/a7/3a/de/a73ade9d7b2652e52333719efe5193f9.jpg" alt="Book 1">
+          <h3>You've Reached Sam</h3>
+          <p>$10</p>
+          <button onclick="selectProduct('Book Title 1')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/50/c2/ab/50c2abeffea07ad227ad966ec212678c.jpg" alt="Book 2">
+          <h3>Verity</h3>
+          <p>$15</p>
+          <button onclick="selectProduct('Book Title 2')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/6a/a2/dc/6aa2dc5703527335b73ac06563392866.jpg" alt="Book 3">
+          <h3>Warmth</h3>
+          <p>$12</p>
+          <button onclick="selectProduct('Book Title 3')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/dc/fc/c3/dcfcc329fd352bd55f7e8b5a2725c406.jpg" alt="Book 4">
+          <h3>I don't love you anymore</h3>
+          <p>$8</p>
+          <button onclick="selectProduct('Book Title 4')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://keepingupwiththepenguins.com/wp-content/uploads/2023/06/A-Good-Girls-Guide-To-Murder-Holly-Jackson-Keeping-Up-With-The-Penguins.jpg" alt="Book 5">
+          <h3>A Good Girl's Guide to Murder</h3>
+          <p>$20</p>
+          <button onclick="selectProduct('Book Title 5')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/regionalbooks/i/2/p/twisted-series-original-imagg36hfyngc3we.jpeg?q=20&crop=false" alt="Book 6">
+          <h3>Twisted Series</h3>
+          <p>$18</p>
+          <button onclick="selectProduct('Book Title 6')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://gyaanstore.com/cdn/shop/files/240_110f4f1b-4f70-40a6-8bab-343e71b4832f.png?v=1701690950&width=1946" alt="Book 7">
+          <h3>Rich Dad Poor Dad</h3>
+          <p>$14</p>
+          <button onclick="selectProduct('Book Title 7')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Dz8ZJjLqZIclIOtxwhgscWx-K8dDOrun4YGMuaOZ6nyXk3QD_MG_Q8yBiAOgqyMfEVc&usqp=CAU" alt="Book 8">
+          <h3>Manifest</h3>
+          <p>$22</p>
+          <button onclick="selectProduct('Book Title 8')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/d3/e1/e8/d3e1e8f41a384d45005f8b03c0ee4925.jpg" alt="Book 9">
+          <h3>Two sides to Every Murder</h3>
+          <p>$16</p>
+          <button onclick="selectProduct('Book Title 9')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/ff/5d/e7/ff5de707f9ea2859a14afd9628310b20.jpg" alt="Book 10">
+          <h3>I know you did it</h3>
+          <p>$25</p>
+          <button onclick="selectProduct('Book Title 10')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/9d/58/7c/9d587ccfada371e28f5ac9c964cf5b41.jpg" alt="Book 11">
+          <h3>Book Title 11</h3>
+          <p>$9</p>
+          <button onclick="selectProduct('Book Title 11')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="https://i.pinimg.com/736x/c0/3e/21/c03e21f2f1ff67b9fa7040b744a06a70.jpg" alt="Book 12">
+          <h3>Book Title 12</h3>
+          <p>$30</p>
+          <button onclick="selectProduct('Book Title 12')">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="payment" class="hidden">
+      <h2>Payment</h2>
+      <form id="payment-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+        <button type="submit">Proceed</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
